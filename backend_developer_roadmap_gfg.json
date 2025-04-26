@@ -1,0 +1,635 @@
+{
+    "roadmap_title": "Backend Development",
+    "source_url": "https://www.geeksforgeeks.org/backend-developer-roadmap/",
+    "sections": [
+      {
+        "section_id": "internet",
+        "section_title": "Internet",
+        "order": 1,
+        "topics": [
+          {
+            "topic_id": "internet_http_https",
+            "topic_title": "HTTP/HTTPS",
+            "order": 1,
+            "description": "Understand the protocols for communication between clients and servers.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "internet_browsers",
+            "topic_title": "Browsers",
+            "order": 2,
+            "description": "Know how browsers render websites and interact with web servers.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "internet_dns",
+            "topic_title": "DNS",
+            "order": 3,
+            "description": "Learn how domain names are translated into IP addresses.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "internet_domain_names",
+            "topic_title": "Domain Names",
+            "order": 4,
+            "description": "Understand the structure and purpose of domain names.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "internet_hosting",
+            "topic_title": "Hosting",
+            "order": 5,
+            "description": "Learn about different web hosting options (shared, VPS, dedicated, cloud).",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "basic_frontend",
+        "section_title": "Basic Frontend Knowledge",
+        "order": 2,
+        "topics": [
+          {
+            "topic_id": "basic_frontend_html",
+            "topic_title": "HTML",
+            "order": 1,
+            "description": "Structure web content using HyperText Markup Language.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "basic_frontend_css",
+            "topic_title": "CSS",
+            "order": 2,
+            "description": "Style web content using Cascading Style Sheets.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "basic_frontend_javascript",
+            "topic_title": "JavaScript",
+            "order": 3,
+            "description": "Add interactivity to websites using JavaScript.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "os_knowledge",
+        "section_title": "OS & General Knowledge",
+        "order": 3,
+        "topics": [
+          {
+            "topic_id": "os_knowledge_terminal",
+            "topic_title": "Terminal Usage",
+            "order": 1,
+            "description": "Become proficient with command-line interfaces (Bash, Powershell).",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "os_knowledge_os_basics",
+            "topic_title": "OS Basics (Unix, Windows)",
+            "order": 2,
+            "description": "Understand fundamental operating system concepts.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "os_knowledge_process_mgmt",
+            "topic_title": "Process Management",
+            "order": 3,
+            "description": "Learn how operating systems manage running programs.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "os_knowledge_threads",
+            "topic_title": "Threads & Concurrency",
+            "order": 4,
+            "description": "Understand concurrent execution and threading models.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "os_knowledge_memory_mgmt",
+            "topic_title": "Memory Management",
+            "order": 5,
+            "description": "Learn how OS allocates and manages memory.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "os_knowledge_io_mgmt",
+            "topic_title": "I/O Management",
+            "order": 6,
+            "description": "Understand how the OS handles input/output operations.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "os_knowledge_networking",
+            "topic_title": "Basic Networking Concepts",
+            "order": 7,
+            "description": "Grasp fundamental networking ideas (IP addresses, TCP/IP).",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "programming_language",
+        "section_title": "Learn a Programming Language",
+        "order": 4,
+        "topics": [
+          {
+            "topic_id": "programming_language_choice",
+            "topic_title": "Choose a Backend Language",
+            "order": 1,
+            "description": "Select and master a primary backend programming language.",
+            "resources": [],
+            "options": [
+              "JavaScript (Node.js)",
+              "Python",
+              "Ruby",
+              "Java",
+              "Go",
+              "Rust",
+              "C#",
+              "PHP"
+            ],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "version_control",
+        "section_title": "Version Control Systems",
+        "order": 5,
+        "topics": [
+          {
+            "topic_id": "version_control_git",
+            "topic_title": "Git",
+            "order": 1,
+            "description": "Learn the fundamentals of the Git version control system (commits, branches, merges).",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "version_control_hosting",
+            "topic_title": "Repo Hosting Services",
+            "order": 2,
+            "description": "Use platforms like GitHub, GitLab, or Bitbucket for code hosting and collaboration.",
+            "resources": [],
+            "options": [
+                "GitHub",
+                "GitLab",
+                "Bitbucket"
+            ],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "databases",
+        "section_title": "Databases",
+        "order": 6,
+        "topics": [
+          {
+            "topic_id": "databases_relational",
+            "topic_title": "Relational Databases",
+            "order": 1,
+            "description": "Understand SQL and relational database concepts. Choose and learn one.",
+            "resources": [],
+            "options": [
+              "PostgreSQL",
+              "MySQL",
+              "MariaDB",
+              "MS SQL",
+              "Oracle"
+            ],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "databases_nosql",
+            "topic_title": "NoSQL Databases",
+            "order": 2,
+            "description": "Explore different NoSQL database types (document, key-value, etc.) and learn one if needed.",
+            "resources": [],
+            "options": [
+              "MongoDB",
+              "RethinkDB",
+              "CouchDB",
+              "DynamoDB",
+              "Redis", 
+              "Cassandra" 
+            ],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "apis",
+        "section_title": "APIs",
+        "order": 7,
+        "topics": [
+          {
+            "topic_id": "apis_rest",
+            "topic_title": "REST",
+            "order": 1,
+            "description": "Learn Representational State Transfer principles for designing web APIs.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "apis_json",
+            "topic_title": "JSON APIs",
+            "order": 2,
+            "description": "Understand how to effectively use JSON for API communication.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "apis_graphql",
+            "topic_title": "GraphQL",
+            "order": 3,
+            "description": "Learn the query language for APIs, providing clients exactly the data they need.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+           {
+            "topic_id": "apis_authentication",
+            "topic_title": "Authentication",
+            "order": 4,
+            "description": "Implement API authentication mechanisms (OAuth, JWT, Basic Auth, API Keys).",
+            "resources": [],
+            "options": [
+                "OAuth",
+                "JWT (JSON Web Tokens)",
+                "Basic Authentication",
+                "API Keys"
+            ],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "apis_soap",
+            "topic_title": "SOAP",
+            "order": 5,
+            "description": "Understand the Simple Object Access Protocol (less common for new projects but good to know).",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "caching",
+        "section_title": "Caching",
+        "order": 8,
+        "topics": [
+          {
+            "topic_id": "caching_cdn",
+            "topic_title": "CDN",
+            "order": 1,
+            "description": "Understand Content Delivery Networks for caching static assets closer to users.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "caching_server_side",
+            "topic_title": "Server-side Caching",
+            "order": 2,
+            "description": "Implement caching strategies on the server using tools like Redis or Memcached.",
+            "resources": [],
+            "options": [
+              "Redis",
+              "Memcached"
+            ],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "caching_client_side",
+            "topic_title": "Client-side Caching",
+            "order": 3,
+            "description": "Understand how browsers cache resources.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "web_security",
+        "section_title": "Web Security Knowledge",
+        "order": 9,
+        "topics": [
+          {
+            "topic_id": "web_security_https",
+            "topic_title": "HTTPS",
+            "order": 1,
+            "description": "Understand the importance of secure communication over HTTP.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "web_security_cors",
+            "topic_title": "CORS",
+            "order": 2,
+            "description": "Learn Cross-Origin Resource Sharing mechanisms.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "web_security_csp",
+            "topic_title": "Content Security Policy (CSP)",
+            "order": 3,
+            "description": "Mitigate injection attacks by defining content policies.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "web_security_ssl_tls",
+            "topic_title": "SSL/TLS",
+            "order": 4,
+            "description": "Understand the cryptographic protocols that underpin HTTPS.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "web_security_owasp",
+            "topic_title": "OWASP Security Risks",
+            "order": 5,
+            "description": "Learn about common web application security vulnerabilities (e.g., SQL Injection, XSS).",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "testing",
+        "section_title": "Testing",
+        "order": 10,
+        "topics": [
+          {
+            "topic_id": "testing_unit",
+            "topic_title": "Unit Testing",
+            "order": 1,
+            "description": "Test individual components or functions in isolation.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "testing_integration",
+            "topic_title": "Integration Testing",
+            "order": 2,
+            "description": "Test the interaction between multiple components.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "testing_functional",
+            "topic_title": "Functional Testing",
+            "order": 3,
+            "description": "Test application functionality from the user's perspective.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "ci_cd",
+        "section_title": "CI/CD",
+        "order": 11,
+        "topics": [
+          {
+            "topic_id": "ci_cd_concepts",
+            "topic_title": "CI/CD Concepts",
+            "order": 1,
+            "description": "Understand Continuous Integration and Continuous Deployment/Delivery principles and tools (e.g., Jenkins, GitLab CI, GitHub Actions).",
+            "resources": [],
+             "options": [
+                 "Jenkins",
+                 "GitLab CI",
+                 "GitHub Actions",
+                 "Travis CI" 
+             ],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "design_principles",
+        "section_title": "Design and Development Principles",
+        "order": 12,
+        "topics": [
+          {
+            "topic_id": "design_principles_solid",
+            "topic_title": "SOLID",
+            "order": 1,
+            "description": "Learn the five principles of object-oriented class design.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "design_principles_kiss",
+            "topic_title": "KISS",
+            "order": 2,
+            "description": "Keep It Simple, Stupid - favour simplicity in design.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "design_principles_yagni",
+            "topic_title": "YAGNI",
+            "order": 3,
+            "description": "You Ain't Gonna Need It - avoid adding functionality until necessary.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "design_principles_dry",
+            "topic_title": "DRY",
+            "order": 4,
+            "description": "Don't Repeat Yourself - avoid duplication in code.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "architectural_patterns",
+        "section_title": "Architectural Patterns",
+        "order": 13,
+        "topics": [
+          {
+            "topic_id": "architectural_patterns_monolithic",
+            "topic_title": "Monolithic Apps",
+            "order": 1,
+            "description": "Understand single-unit application architecture.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "architectural_patterns_microservices",
+            "topic_title": "Microservices",
+            "order": 2,
+            "description": "Learn about building applications as a collection of small, independent services.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+           {
+            "topic_id": "architectural_patterns_serverless",
+            "topic_title": "Serverless",
+            "order": 3,
+            "description": "Understand architectures where cloud providers manage server infrastructure (e.g., AWS Lambda, Azure Functions).",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "architectural_patterns_soa",
+            "topic_title": "SOA (Service-Oriented Architecture)",
+            "order": 4,
+            "description": "Learn about the principles of service-oriented design (often seen as a precursor to microservices).",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          }
+        ]
+      },
+      {
+        "section_id": "advanced_topics",
+        "section_title": "Advanced Topics & Specializations",
+        "order": 14,
+        "topics": [
+          {
+            "topic_id": "advanced_search_engines",
+            "topic_title": "Search Engines",
+            "order": 1,
+            "description": "Integrate full-text search capabilities using engines like Elasticsearch or Solr.",
+            "resources": [],
+            "options": [
+              "Elasticsearch",
+              "Solr",
+              "Algolia" 
+            ],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "advanced_message_brokers",
+            "topic_title": "Message Brokers",
+            "order": 2,
+            "description": "Learn asynchronous communication patterns using message queues.",
+            "resources": [],
+            "options": [
+              "RabbitMQ",
+              "Kafka",
+              "Amazon SQS",
+              "Redis Queue" 
+            ],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "advanced_containers",
+            "topic_title": "Containerization",
+            "order": 3,
+            "description": "Package and deploy applications using containers.",
+            "resources": [],
+            "options": [
+              "Docker",
+              "Kubernetes", 
+              "LXC"
+            ],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "advanced_graphql_tools",
+            "topic_title": "GraphQL Tools",
+            "order": 4,
+            "description": "Explore libraries and frameworks for building GraphQL APIs.",
+            "resources": [],
+            "options": [
+              "Apollo",
+              "Relay Modern" 
+            ],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "advanced_graph_databases",
+            "topic_title": "Graph Databases",
+            "order": 5,
+            "description": "Learn databases designed for storing and querying highly connected data.",
+            "resources": [],
+            "options": [
+              "Neo4j",
+              "ArangoDB" 
+            ],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "advanced_websockets",
+            "topic_title": "WebSockets",
+            "order": 6,
+            "description": "Enable real-time, bidirectional communication between clients and servers.",
+            "resources": [],
+            "options": [],
+            "is_subtopic_of": null
+          },
+          {
+            "topic_id": "advanced_web_servers",
+            "topic_title": "Web Servers",
+            "order": 7,
+            "description": "Understand different web server software options.",
+            "resources": [],
+            "options": [
+              "Nginx",
+              "Apache",
+              "Caddy",
+              "MS IIS"
+            ],
+            "is_subtopic_of": null
+          }
+        ]
+      }
+    ]
+  }
