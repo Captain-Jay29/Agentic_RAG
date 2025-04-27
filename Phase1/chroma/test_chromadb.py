@@ -1,5 +1,5 @@
-import chromadb
-from chromadb.utils import embedding_functions
+import chromadb # type: ignore
+from chromadb.utils import embedding_functions # type: ignore
 import json
 
 CHROMA_PERSIST_DIR = "chroma_db_backend_gfg"

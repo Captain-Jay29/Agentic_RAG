@@ -1,12 +1,12 @@
 import json
-import chromadb
-from chromadb.utils import embedding_functions # Import Chroma's helper
+import chromadb # type: ignore
+from chromadb.utils import embedding_functions # type: ignore # Import Chroma's helper
 import os
-from tqdm import tqdm # For progress bars
+from tqdm import tqdm # type: ignore # For progress bars
 import logging
 
 # --- Configuration ---
-ROADMAP_JSON_PATH = "backend_developer_roadmap_gfg.json"
+ROADMAP_JSON_PATH = "/Users/jay/Desktop/The File/Learn/Agentic_RAG_mem0/Phase1/backend_developer_roadmap_gfg.json"
 CHROMA_PERSIST_DIR = "chroma_db_backend_gfg"
 COLLECTION_NAME = "backend_topics_gfg"
 
