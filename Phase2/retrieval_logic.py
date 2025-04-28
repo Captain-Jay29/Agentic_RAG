@@ -33,7 +33,7 @@ _chromadb_embedding_function = None
 async def get_neo4j_driver():
     """Initializes and returns the async Neo4j driver instance."""
     global _neo4j_driver
-    #...(previous implementation - unchanged)...
+    
     if _neo4j_driver is None:
         logging.info(f"Initializing Neo4j async driver for URI: {NEO4J_URL}")
         if not all([NEO4J_URL, NEO4J_USER, NEO4J_PASSWORD]):
@@ -55,7 +55,7 @@ async def get_neo4j_driver():
 async def close_neo4j_driver():
     """Closes the global Neo4j driver if it exists."""
     global _neo4j_driver
-    #...(previous implementation - unchanged)...
+    
     if _neo4j_driver:
         logging.info("Closing Neo4j async driver.")
         await _neo4j_driver.close()
@@ -64,7 +64,7 @@ async def close_neo4j_driver():
 def get_chromadb_collection():
     """Initializes ChromaDB client and returns the specific collection."""
     global _chromadb_client, _chromadb_collection, _chromadb_embedding_function
-    #...(previous implementation - unchanged)...
+    
     if _chromadb_collection is None:
         logging.info(f"Initializing ChromaDB client (persistent path: ./{CHROMA_PERSIST_DIR})")
         if not os.path.exists(CHROMA_PERSIST_DIR):
@@ -91,7 +91,6 @@ def get_chromadb_collection():
     return _chromadb_collection
 
 # --- Neo4j Retrieval Functions ---
-#...(previous implementations - unchanged)...
 async def retrieve_topic_details_neo4j(topic_id: str) -> dict | None:
     """Fetches details for a specific topic from Neo4j."""
     logging.debug(f"Retrieving details for topic_id: {topic_id}")
@@ -430,7 +429,6 @@ async def main_test():
         logging.info("Database connections successful.")
 
         # --- Test Neo4j Functions ---
-        # ...(Keep previous Neo4j tests or comment out if verbose)...
         logging.info("\n\n--- Testing Neo4j Functions (Summary) ---")
         assert await retrieve_topic_details_neo4j("apis_rest") is not None
         assert await get_next_topic_ids_neo4j("apis_json") == ['apis_graphql']
@@ -439,7 +437,6 @@ async def main_test():
 
 
         # --- Test ChromaDB Retrieval Function ---
-        # ...(Keep previous ChromaDB test or comment out)...
         logging.info("\n\n--- Testing ChromaDB Function (Summary) ---")
         assert len(await find_similar_topics_chroma("strategies for caching data", n_results=1)) > 0
         logging.info("ChromaDB function basic test passed.")
